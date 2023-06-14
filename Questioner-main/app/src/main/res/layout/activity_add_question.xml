@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/admin_screen_background_gradient"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddQuestionActivity">
+
+
+    <TextView
+        android:id="@+id/label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text=""
+        android:textAlignment="center" />
+
+    <Spinner
+        android:layout_below="@id/label"
+        android:id="@+id/addQuestionSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginHorizontal="30dp"
+        android:background="@drawable/blur_white"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextTopic"
+        android:layout_marginHorizontal="30dp"
+        android:hint="Enter Topic"
+        android:layout_marginTop="10dp"></EditText>
+
+
+    <EditText
+        android:id="@+id/addQuestionEditText"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_below="@id/addQuestionSpinner"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/blur_white"
+        android:hint="Type Your Question Here"
+        android:inputType="textMultiLine"
+        android:maxLines="5"
+        android:padding="10dp"
+        android:textAlignment="center" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/addQuestionButton"
+        android:layout_below="@id/addQuestionEditText"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginVertical="30dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/addQuestionOptionA"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="10dp"
+                android:background="@drawable/blur_white"
+                android:hint="Add Option A"
+                android:padding="10dp"
+                android:textAlignment="center" />
+
+
+            <EditText
+                android:id="@+id/addQuestionOptionB"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="10dp"
+                android:background="@drawable/blur_white"
+                android:hint="Add Option B"
+                android:padding="10dp"
+                android:textAlignment="center" />
+
+
+            <EditText
+                android:id="@+id/addQuestionOptionC"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="10dp"
+                android:background="@drawable/blur_white"
+                android:hint="Add Option C"
+                android:padding="10dp"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/addQuestionOptionD"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="10dp"
+                android:background="@drawable/blur_white"
+                android:hint="Add Option D"
+                android:padding="10dp"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/addQuestionExplanation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="10dp"
+                android:background="@drawable/blur_white"
+                android:hint="Add Explanation"
+                android:padding="10dp"
+                android:textAlignment="center" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Select Correct Option For Question"
+                android:textAlignment="center" />
+
+
+            <Spinner
+                android:id="@+id/addQuestionSpinnerAnswer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/label"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/blur_white"
+                android:gravity="center"
+                android:textAlignment="center" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+    <TextView
+        android:id="@+id/addQuestionButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/blur_white"
+        android:padding="10dp"
+        android:text="Add Question +"
+        android:textAlignment="center"
+        android:textSize="25sp" />
+
+</RelativeLayout>

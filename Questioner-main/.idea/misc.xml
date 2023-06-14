@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/DeLL/AndroidStudioProjects/Questioner-main/Questioner-main/app/src/main/res/drawable/blur_white.xml" value="0.212" />
+        <entry key="..\:/Users/DeLL/AndroidStudioProjects/Questioner-main/Questioner-main/app/src/main/res/layout/activity_about_new.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/DeLL/AndroidStudioProjects/Questioner-main/Questioner-main/app/src/main/res/layout/activity_add_question.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/DeLL/AndroidStudioProjects/Questioner-main/Questioner-main/app/src/main/res/layout/activity_admin_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/DeLL/AndroidStudioProjects/Questioner-main/Questioner-main/app/src/main/res/layout/activity_admin_topic.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/DeLL/AndroidStudioProjects/Questioner-main/Questioner-main/app/src/main/res/layout/activity_landing_page.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/DeLL/AndroidStudioProjects/Questioner-main/Questioner-main/app/src/main/res/layout/activity_login.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/DeLL/AndroidStudioProjects/Questioner-main/Questioner-main/app/src/main/res/layout/activity_question.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/DeLL/AndroidStudioProjects/Questioner-main/Questioner-main/app/src/main/res/layout/activity_register.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/DeLL/AndroidStudioProjects/Questioner-main/Questioner-main/app/src/main/res/layout/activity_result.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/DeLL/AndroidStudioProjects/Questioner-main/Questioner-main/app/src/main/res/layout/activity_topic.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/DeLL/AndroidStudioProjects/Questioner-main/Questioner-main/app/src/main/res/layout/item_add_remove_topic.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/DeLL/AndroidStudioProjects/Questioner-main/Questioner-main/app/src/main/res/layout/item_file.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/DeLL/AndroidStudioProjects/Questioner-main/Questioner-main/app/src/main/res/layout/item_topic.xml" value="0.25416666666666665" />
+      </map>
+    </option>
+  </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK" />
+</project>

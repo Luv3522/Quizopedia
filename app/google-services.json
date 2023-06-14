@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1082685486043",
+    "project_id": "quizopedia-b4245",
+    "storage_bucket": "quizopedia-b4245.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1082685486043:android:06da7f30d193f9ef2e6dfe",
+        "android_client_info": {
+          "package_name": "com.example.questioner"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1082685486043-cqlijpn91nc1a4jln7hqqjhnv9rrukcq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7yweNrc_JfIpXh5IW8WgLkhAIbYoO_8k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1082685486043-cqlijpn91nc1a4jln7hqqjhnv9rrukcq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
